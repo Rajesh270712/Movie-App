@@ -1,0 +1,19 @@
+#navbar{
+    border: 1px solid black;
+    padding: 2vh;
+    margin: 3vh;
+    display: flex;
+    justify-content: end;
+}
+#navbar>div{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid; */
+    width: 40%;
+    text-decoration: none;
+    
+}
+#navbar>div>a{
+    text-decoration: none;
+    
+}

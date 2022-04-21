@@ -1,0 +1,32 @@
+#slideshow{
+    width: 80%;
+    /* border: 1px solid; */
+    margin: auto;
+    height: 50vh;
+    
+}
+#slideshow>img{
+    width: 100%;
+    height: 100%;
+}
+
+#movies{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 4vh 7vh;
+    width: fit-content;
+    justify-content: center;
+    margin: 3vh auto;
+}
+#movies>div>img{
+    width: 13vw;
+    height: 20vh;
+}
+#movies>div{
+    padding: 2vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width:13vw;
+}
+#sort-buttons{
+    padding: 4vh 10vh ;
+}
